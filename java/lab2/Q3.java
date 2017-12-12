@@ -9,7 +9,7 @@ class Q3
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		int large = 0, small = 0;
-		
+
 		if(a > b)
 		{
 			if(a > c)
@@ -24,7 +24,7 @@ class Q3
 			else
 				large = c;
 		}
-		
+
 		if(a < b)
 		{
 			if(a < c)
@@ -39,8 +39,8 @@ class Q3
 			else
 				small = c;
 		}
-		
+
 		System.out.println("Largest = " + large);
-		System.out.println("Smallest = " + large);
+		System.out.println("Smallest = " + small);
 	}
 }
