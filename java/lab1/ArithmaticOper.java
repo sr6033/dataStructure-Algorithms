@@ -5,6 +5,7 @@ class ArithmaticOper
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
+		Sysyem.out.println("Enter any 2  numbers");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 
