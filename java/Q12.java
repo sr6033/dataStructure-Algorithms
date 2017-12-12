@@ -11,10 +11,10 @@ class Q12
 		double b = sc.nextDouble();
 		double c = sc.nextDouble();
 		double d = b * b - 4 * a * c;
-
+		if(d>0){
 		double r1 = ( - b + Math.sqrt(d))/(2*a); 
 		double r2 = ( - b - Math.sqrt(d))/(2*a);
-	
+		}
 		System.out.println("Roots: " + r1 + ", " + r2);
 	}
 }
