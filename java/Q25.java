@@ -5,7 +5,7 @@ class Q25
 	public static void main(String[] args)throws InputMismatchException
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("> ");
+		System.out.print("Enter the number to form the multipification table:");
 
 		int n = sc.nextInt();
 
