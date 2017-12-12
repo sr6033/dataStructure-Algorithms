@@ -2,17 +2,17 @@ import java.util.*;
 
 class main
 {
-	public static void main(String[] args)throws InputMismatchException
+	public static void main(String[] args)throws InputMismatchException //program to print sum of the integers in an array
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("> ");
+		System.out.print("Enter size of array:");
 
 		int n = sc.nextInt(), sum = 0;
 		int a[] = new int[n];
 
 		for(int i = 0; i < n; i++)
 		{
-			System.out.print(">> ");
+			System.out.println(">> ");
 			a[i] = sc.nextInt();
 			sum += a[i];
 		}
@@ -20,12 +20,5 @@ class main
 		System.out.println(sum);
 	}
 
-	public static int isPrime(int n)
-	{
-		int c = 0;
-		for(int i = 2; i < n; i++) 
-		{
-			if(n % i )	
-		}
-	}
+	
 }
