@@ -48,7 +48,7 @@ class Q2
                                 break;
 			default:
 				System.out.println("Invalid choice.");
-		}
+		}}
 		else
 		{
 			System.out.println("Triangle is invalid");
