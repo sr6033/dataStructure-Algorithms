@@ -1,3 +1,6 @@
+#Program to print the divisors of a number
+#This program has a time complexity of O(sqrt(n))
+
 import math
 
 def PrintDivisors(n):
