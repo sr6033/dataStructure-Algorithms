@@ -1,42 +1,34 @@
-#include <iostream>
-using namespace std;
+#include<iostream>
 
-int binarySearch(int a[], int x, int l, int r)
-{
-	if(l == r)
-	{
-		if(x == a[l])
-			return l;
-		else
-			return -1;
-	}
-	else
-	{
-		int m = (l+r)/2;
-		if(x <= a[m])
-			return binarySearch(a, x, l, m);
-		else
-			return binarySearch(a, x, m+1, r);
-	}
-}
+int binary_search(int k,int a[],int n)
+{   int end=n-1,start=0;
+while(start<=end)
+{	 int m=(end+start)/2;
+        if(k==a[m])
+           return 1;
 
+        else if(k<a[m])
+            end=m-1;
+        else if(k>a[m])
+            start=m+1;
+        else
+            return 0;
+}}
 int main()
-{
-	int n, x;
-	cin>>n;
-	int a[n];
+{   int a[20];
+    int i,n,k,f;
+    printf("enter the size of array\n");
 
-	for(int i = 0; i < n ; i++)
-		cin>>a[i];
+    scanf("%d",&n);
+    for(i=0;i<n;++i)
+    scanf("%d",&a[i]);
+    printf("enter no. to search");
+    scanf("%d",&k);
 
-	cin>>x;
-
-	int flag = binarySearch(a, x, 0, n-1);
-
-	if(flag < 0)
-		cout<<"Not present"<<endl;
-	else
-		cout<<"Present at pos: "<<flag+1<<endl;
-
-	return 0;
+    f=binary_search(k,a,n);
+    if(f==1)
+    printf("number is found");
+    else
+    printf("not found");
+    return 0;
 }
