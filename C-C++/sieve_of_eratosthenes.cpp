@@ -1,3 +1,8 @@
+/* 
+* Problem statement:
+* Generate prime numbers upto nth number using the algorithm Sieve of Eratosthenes.
+*/
+
 #include <iostream>
 #include <math.h>
 
