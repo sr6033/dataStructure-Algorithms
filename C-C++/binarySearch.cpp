@@ -23,12 +23,13 @@ int binarySearch(int a[], int x, int l, int r)
 int main()
 {
 	int n, x;
+	cout<<"enter number of elements :";
 	cin>>n;
 	int a[n];
-
+cout<<"enter array elements \n";
 	for(int i = 0; i < n ; i++)
 		cin>>a[i];
-
+cout<<"enter search element :";
 	cin>>x;
 
 	int flag = binarySearch(a, x, 0, n-1);

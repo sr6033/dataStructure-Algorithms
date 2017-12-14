@@ -30,20 +30,20 @@ int main()
     int profit[100], weight[100], w_max, n, i, total;
     cout << "Enter no of items: ";
     cin >> n;
-    
+
     cout << "Enter profits respectively: ";
     for(i = 0; i < n; i++)
         cin >> profit[i];
-    
-	printf("Enter the weights respectively: ");
+
+	cout << "Enter the weights respectively: ";
     for(i = 0; i < n; i++)
         cin >> weight[i];
-    
+
 	cout << "Enter max capacity: ";
     cin >> w_max;
-    
+
 	total = knapsack(weight, profit, n, w_max);
     cout << "\nTotal profit: " << total << endl;
-    
+
 	return 0;
 }
