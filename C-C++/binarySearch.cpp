@@ -1,3 +1,5 @@
+//BINARY SEARCH -It is a process of searching integers from a list of sorted array
+
 #include <iostream>
 using namespace std;
 
