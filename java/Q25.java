@@ -1,5 +1,5 @@
+//Program to print the multiplication table as well the factorial of the individual multiple value of any positive integers
 import java.util.*;
-
 class Q25
 {
 	public static void main(String[] args)throws InputMismatchException
