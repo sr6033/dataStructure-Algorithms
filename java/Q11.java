@@ -1,3 +1,5 @@
+//program to  1)print the even divisors 2) print the odd divisors  of any input integers
+
 import java.util.*;
 class Q9
 {
