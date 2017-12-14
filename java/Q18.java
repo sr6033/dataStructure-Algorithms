@@ -1,5 +1,5 @@
+// Program to find whether a point lies inside,on,outside  a 2D geometric circle
 import java.util.*;
-
 class Q18
 {
 	public static void main(String[] args)
