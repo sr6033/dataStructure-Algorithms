@@ -1,3 +1,4 @@
+//PROGRAM TO CHECK WHETHER 3 POINTS ARE COLLINEAR OR NOT
 import java.util.*;
 
 class Q13
