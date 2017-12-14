@@ -1,3 +1,7 @@
+
+// Fibonacci search technique is a method of searching
+// a sorted array using a divide and conquer algorithm that narrows down possible locations with the aid of Fibonacci numbers.
+// Time Complexity : O(log n)
 #include <iostream>
 #include <vector>
 
