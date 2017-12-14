@@ -1,3 +1,7 @@
+//The longest palindromic subsequence (LPS) problem is the problem of finding the longest subsequence of a string
+//which is also a palindrome.
+// Time Complexity : O(n^2)
+
 #include <bits/stdc++.h>
 using namespace std;
 
