@@ -1,5 +1,6 @@
-import java.util.*;
+// Program to print sum of the integers stored in an array
 
+import java.util.*;
 class main
 {
 	public static void main(String[] args)throws InputMismatchException //program to print sum of the integers in an array
