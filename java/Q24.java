@@ -1,5 +1,7 @@
+//Program to print FIBONACCI SERIES of prime integers 
+/* Fibonacci series-a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
+The simplest is the series 1, 1, 2, 3, 5, 8, etc. */
 import java.util.*;
-
 class Q24
 {
 	public static void main(String[] args)throws InputMismatchException
