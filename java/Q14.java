@@ -1,13 +1,15 @@
+// PROGRAM TO FIND THE 1)GREATEST COMMON DIVISOR(GCD) 2)LOWEST COMMON MULTIPLE(LCM) OF ANY NUMBER
+ 
 import java.util.*;
 
 class Q14
 {
 	public static void main(String[] args)throws InputMismatchException
-	{
+	{	
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1. Find GCD");
 		System.out.println("2. Find LCM");
-		System.out.print("> ");
+		System.out.print("Enter your choice:");
 		int ch = sc.nextInt();
 
 		System.out.print("Enter the numbers: ");
@@ -32,43 +34,10 @@ class Q14
 
 	public static void lcm(int n, int m)
 	{
-		int large = (m > n)? m : n;
-		int l = 1;
-		for(int i = 2; i < large;)
-		{
-			if(m%i == 0)
-			{
-				if(n%i == 0)
-				{
-					l *= i;
-					n = n/i;
-					m = m/i;
-				}
-				else
-				{
-					l *= i;
-					m = m/i;
-				}
-			}
-			else
-				if(n%i == 0)
-				{
-					if(m%i == 0)
-					{
-						l *= i;
-						m = m/i;
-						n = n/i;
-					}
-					else
-					{
-						l *= i;
-						n = n/i;
-					}
-				}
-			else
-				i++;
-		}
-
-		System.out.println("LCM: " + l);
+		for(int i=1;i<=(n*m);++i)
+		{ if((i%a==0)&&(i%b==0))
+			{ System.out.println("LCM="+i);
+			 break;
+			}}
 	}
 }

@@ -1,5 +1,5 @@
+// Program to find whether a point lies inside,on,outside  a 2D geometric circle
 import java.util.*;
-
 class Q18
 {
 	public static void main(String[] args)
@@ -17,9 +17,10 @@ class Q18
 		System.out.println("Enter the radius: ");
 		double r = sc.nextDouble();
 
-		double d = (x-x0) + (y - y0);
+		double d = ((x-x0)*(x-x0)) + ((y - y0)*(y - y0));
 		d = Math.sqrt(d);
-
+		if(r==d)
+			System.out.println("the point lies on the circle.");
 		if(r > d)
 			System.out.println("The point lies within the circle.");
 		else
