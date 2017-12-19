@@ -24,3 +24,7 @@ Programmers willing to contribute or add more language efficiencies are most wel
 |**Counting Sort**  |Ω(n+k)      |Θ(n+k)      |O(n+k)      |O(k)             |
 |**Radix sort**     |Ω(nk)       |Θ(nk)       |O(nk)       |O(n+k)           |
 |**Heap Sort**      |Ω(n log(n)) |Θ(n log(n)) |O(n log(n)) |O(1)             |
+|**Tree Sort**      |Ω(n log(n)) |Ω(n log(n)) |O(n^2)      |O(n)             |
+|**Bucket sort**    |Ω(n+k)      |Ω(n+k)      |O(n^2)      |O(n)             |
+|**Cube Sort**      |Ω(n)        |Θ(n log(n)) |O(n log(n)) |O(n)             |
+|**Tim Sort**       |Ω(n)        |Ω(n log(n)) |O(n log(n)) |O(n)             |
