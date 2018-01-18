@@ -23,5 +23,5 @@
 #include<stdbool.h>
 #include<assert.h>
 #include<ctype.h>
-#include<string.h>
+#include<errno.h>
 #include<float.h>
