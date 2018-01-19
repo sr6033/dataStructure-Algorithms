@@ -20,3 +20,8 @@
 #include<cstring>
 #include<cstdio>
 #include<chrono>
+#include<stdbool.h>
+#include<assert.h>
+#include<ctype.h>
+#include<errno.h>
+#include<float.h>
